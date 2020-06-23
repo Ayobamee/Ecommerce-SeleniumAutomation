@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Merch List Test Suite">
+  <test thread-count="6" name="Test">
+    <classes>
+      <class name="TestCases.ForgotPasswordTest"/>
+      <class name="TestCases.LoginSuccessTest"/>
+      <class name="TestCases.LoginFailureTest"/>
+      <class name="TestCases.SearchProductTest"/>
+      <class name="TestCases.ListMoreBusinessesTest"/>
+      <class name="TestCases.AddToCartTest"/>
+      <class name="TestCases.CheckOutTest"/>  
+      <class name="TestCases.PaymentTest"/>  
+      <class name="TestCases.ReferalCodeTest"/>  
+      <class name="TestCases.RestrictionAdminTest"/> 
+      <class name="TestCases.RestrictionMerchantTest"/> 
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
